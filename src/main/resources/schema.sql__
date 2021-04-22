@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS RETAILERS;
+
+CREATE TABLE RETAILERS (
+                           id INT AUTO_INCREMENT  PRIMARY KEY,
+                           name VARCHAR(250) NOT NULL,
+                           stock INT NOT NULL
+);
